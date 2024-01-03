@@ -1,0 +1,61 @@
+.home {
+  width: 400px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  box-shadow: 0 0 23px -3px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+  border: 1px solid dimgrey;
+
+  h1 {
+    font-family: cursive;
+  }
+
+  .add {
+    margin: 0 10px 10px 82%;
+  }
+
+  table {
+    width: 100%;
+    border: 1px solid grey;
+    border-collapse: separate;
+    //border-spacing: 5px;
+  }
+
+  th {
+    background-color: darkgray;
+    border: 1px solid black;
+    width: 33.3%;
+    vertical-align: top;
+    padding: 0;
+  }
+
+  .edit-save {
+    width: 96%;
+  }
+
+  .button-save {
+    border: none;
+    margin: 10px 0 0 35px;
+    font-size: 16px;
+    background-color: antiquewhite;
+
+    .save {
+     font-size: 20px;
+    }
+  }
+
+  .button {
+    display: flex;
+
+    .btn-icon {
+      margin: 5px 0 0 20px;
+      font-size: 17px;
+    }
+  }
+}
